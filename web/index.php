@@ -15,7 +15,7 @@ $products = $conn->query('SELECT p.*, c.category_name FROM products p JOIN categ
 </head>
 <body>
 <div class="shell">
-  <header class="site-header"><div class="header-inner"><a class="top-brand" href="index.php"><span class="top-brand-mark">◈</span><span><strong>MooShop</strong><small>SHOP MANAGEMENT</small></span></a><nav class="site-nav" aria-label="เมนูหลัก"><a href="index.php" class="current">ภาพรวมสินค้า</a><a href="add.php">＋ เพิ่มสินค้า</a></nav></div></header>
+  <header class="site-header"><div class="header-inner"><a class="top-brand" href="index.php"><span class="top-brand-mark">◈</span><span><strong>MooShop</strong><small>SHOP MANAGEMENT</small></span></a><nav class="site-nav" aria-label="เมนูหลัก"><a href="index.php" class="current">ภาพรวมสินค้า</a><a href="orders.php">คำสั่งซื้อ</a><a href="add.php">＋ เพิ่มสินค้า</a></nav></div></header>
   <main class="main">
     
     <div class="welcome"><div><h1>ภาพรวมร้านค้า <span aria-hidden="true">✨</span></h1><p class="subtitle">ยินดีต้อนรับกลับมา! นี่คือสรุปข้อมูลสินค้าในร้านของคุณ</p></div><a href="add.php" class="btn btn-primary">＋ เพิ่มสินค้าใหม่</a></div>
